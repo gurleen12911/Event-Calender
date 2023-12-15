@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#calendar {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.day {
+    display: inline-block;
+    width: 14.28%;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+    height: 100px;
+}
+
+.day:hover {
+    background-color: #f5f5f5;
+}
+
+.event {
+    margin-bottom: 5px;
+}
